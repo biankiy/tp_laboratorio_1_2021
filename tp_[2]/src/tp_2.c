@@ -96,7 +96,7 @@ int main(void) {
 
 				indice = buscarIDempleado(listaEmpleados, TAM, auxID);
 
-				if(indice >= 0 && bajaEmpleado(listaEmpleados, TAM, sectores, indice)== 0){
+				if(indice >= 0 && removeEmployee(listaEmpleados, TAM, sectores, indice)== 0){
 					printf("\nBaja realizada con exito\n");
 				}
 			}
