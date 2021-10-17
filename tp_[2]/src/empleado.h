@@ -92,7 +92,7 @@ int buscarIDempleado(Employee listaEmpleados[], int tam, int idBuscado);
  * @param indice de la posicion del array
  * @return 0 si pudo eliminar con exito, y -1 si no.
  */
-int bajaEmpleado(Employee* listaEmpleados, int tam ,Sector* sectores ,int indice);
+int removeEmployee(Employee* listaEmpleados, int tam ,Sector* sectores ,int indice);
 /**
  * @brief Modifica un campo especifico a elegir de un empleado
  * @param Lista de empleados
