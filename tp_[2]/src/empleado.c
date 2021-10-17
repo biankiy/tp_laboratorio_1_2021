@@ -11,7 +11,7 @@
 #include <string.h>
 #include "input.h"
 #include "empleado.h"
-#define TAM 50
+#define TAM 1000
 #define MAX 10
 #define TAMHARD 50
 #define TAMSEC 6
