@@ -200,7 +200,7 @@ int buscarIDempleado(Employee listaEmpleados[], int tam, int idBuscado)
     }
     return retorno;
 }
-int bajaEmpleado(Employee* listaEmpleados, int tam ,Sector* sectores ,int indice){
+int removeEmployee(Employee* listaEmpleados, int tam ,Sector* sectores ,int indice){
 
 	int retorno = -1;
 
